@@ -33,14 +33,14 @@ export default function MainPage() {
                     <div className="flex justify-between h-16">
                         <div className="flex items-center">
                             <div className="flex-shrink-0 flex items-center">
-                                <span className="text-xl font-bold text-indigo-600">MyApp</span>
+                                <span className="text-xl font-bold text-indigo-600">Practice Dashboard</span>
                             </div>
                         </div>
                         <div className="flex items-center">
                             <span className="mr-4 text-gray-700">안녕하세요, {username}님!</span>
                             <button
                                 onClick={handleLogout}
-                                className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                                className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cursor-pointer"
                             >
                                 로그아웃
                             </button>
