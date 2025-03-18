@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 
 export default function MainPage() {
     const router = useRouter();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [username, setUsername] = useState('사용자');
 
     useEffect(() => {
