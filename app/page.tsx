@@ -34,14 +34,14 @@ export default function Page() {
                         width={1000}
                         height={760}
                         className="hidden md:block"
-                        alt="데스크톱 및 모바일 버전을 보여주는 대시보드 프로젝트의 스크린샷"
+                        alt="데스크톱 및 모바일 버전을 보여주는 대시보드 프로젝트의 스크린샷 / md -> mobile display block"
                     />
                     <Image
                         src="/hero-mobile.png"
                         width={560}
                         height={620}
                         className="block md:hidden"
-                        alt="모바일 버전을 보여주는 대시보드 프로젝트의 스크린샷"
+                        alt="모바일 버전을 보여주는 대시보드 프로젝트의 스크린샷 -> mobile display hidden"
                     />
                 </div>
             </div>
